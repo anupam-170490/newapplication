@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeployController {
 	@RequestMapping("/hello")
     public String hello() {
-        return "Hello World RESTful";
+        return "Hello World RESTful Application";
     } 
 }
